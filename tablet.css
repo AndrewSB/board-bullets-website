@@ -1,0 +1,64 @@
+#main-container {
+	position: absolute;
+	width: 668px;
+	height: 422px;
+	top: 50%;
+	left:50%;
+	margin: -211px 0px 0px -334px;
+}
+
+#main-app-holder {
+	width: 225px;
+	height: 422px;
+}
+
+#main-app-image {
+	height:389px;
+	width: 225px;
+	background-size: 225px 389px;
+}
+
+#main-app-placeholder-image {
+	height:389px;
+	width: 225px;
+	background-size: 225px 389px;
+}
+
+#main-app-shadow {
+	height:33px;
+	width: 225px;
+	background-size: 225px 33px;
+}
+
+#main-copy-holder {
+	height: 336px;
+	width: 400px;
+	margin: 40px 0px 0px 43px;
+}
+
+#main-icon {
+	background-image:url('app_icon.png');
+	height:100px;
+	width: 100px;
+	background-size: 100px 100px;
+}
+
+#main-copy-headline {
+	font-size: 22px;
+	padding: 30px 0px 0px 0px;
+}
+
+#main-copy-subhead {
+	font-size: 16px;
+	padding: 10px 0px 0px 0px;
+}
+
+/* legalese */
+
+ .terms-sub-body {
+	font-size: 18px;
+}
+
+#contact_link {
+	font-size: 18px;
+}

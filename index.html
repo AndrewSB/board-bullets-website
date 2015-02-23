@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>GameOn</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link rel="stylesheet" type="text/css" href="full.css" media="screen and (min-width: 1024px) and (max-width: 1280px)"/>
+        <link rel="stylesheet" type="text/css" href="tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)"/>
+        <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (min-width: 500px) and (max-width: 767px)"/>
+        <link rel="stylesheet" type="text/css" href="mobile_small.css" media="screen and (max-width: 499px)"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/icon"> 
+		<link rel="icon" href="favicon.ico" type="image/icon">
+    </head>
+    <body>
+    <div id="main-container">
+    	<div id="main-app-holder">
+    		<div id="main-app-placeholder-image"><div id="main-app-image"></div></div>
+    		<div id="main-app-shadow"></div>
+    	</div>
+    	<div id="main-copy-holder">
+    		<div id="main-icon"></div>
+    		<!--div id="main-copy-headline">GameOn:<span id="line-breaker-1"><br></span><span id="line-breaker-2">&nbsp;</span>Social at the Speed of Sport</div-->
+    		<div id="main-copy-headline"><span id="line-breaker-2">Get your GameOn.</span></div>
+    		<div id="main-copy-subhead">Chat with friends and follow your favorite<span id="line-breaker-1"><br></span> teams.<span id="line-breaker-2"><br></span> Live scores, stickers, news and more.</div>
+    		<div id="main-stores">
+    			<a href="https://itunes.apple.com/us/app/gameon-social-at-speed-sport/id877098888" target="_self"><div id="main-app-store"></div></a>
+    			<a href="http://play.google.com/store/apps/details?id=com.gameontechnology.gameon" target="_self"><div id="main-play-store"></div></a>
+    		</div>
+    	</div>
+    	<div id="main-app-holder-m">
+    		<div id="main-app-image-m"></div>
+    		<div id="main-app-shadow-m"></div>
+    	</div>
+    </div>
+    
+    <script>
+    
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56626332-1', 'auto');
+  ga('send', 'pageview');
+  
+  var downloadLinkiOS = document.getElementById('main-app-store');
+addListener(downloadLinkiOS, 'click', function() {
+  ga('send', 'event', 'button', 'click', 'iOS-store-button');
+});
+
+var downloadLinkPlay = document.getElementById('main-play-store');
+addListener(downloadLinkPlay, 'click', function() {
+  ga('send', 'event', 'button', 'click', 'play-store-button');
+});
+
+/**
+ * Utility to wrap the different behaviors between W3C-compliant browsers
+ * and IE when adding event handlers.
+ *
+ * @param {Object} element Object on which to attach the event listener.
+ * @param {string} type A string representing the event type to listen for
+ *     (e.g. load, click, etc.).
+ * @param {function()} callback The function that receives the notification.
+ */
+ 
+function addListener(element, type, callback) {
+ if (element.addEventListener) element.addEventListener(type, callback);
+ else if (element.attachEvent) element.attachEvent('on' + type, callback);
+}
+
+	</script>
+
+
+
+    </body>
+</html>

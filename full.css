@@ -1,0 +1,54 @@
+#main-container {
+	position: absolute;
+	width: 935px;
+	height: 586px;
+	top: 50%;
+	left:50%;
+	margin: -298px 0px 0px -467px;
+}
+
+#main-app-holder {
+	width: 313px;
+	height: 586px;
+}
+
+#main-app-image {
+	height:540px;
+	width: 313px;
+	background-size: 313px 540px;
+}
+
+#main-app-placeholder-image {
+	background-size: 313px 540px;
+	height:540px;
+	width: 313px;
+}
+
+#main-app-shadow {
+	height:46px;
+	width: 313px;
+	background-size: 313px 46px;
+}
+
+#main-copy-holder {
+	height: 466px;
+	width: 562px;
+	margin: 80px 0px 0px 50px;
+}
+
+#main-icon {
+	background-image:url('app_icon.png');
+	height:118px;
+	width: 118px;
+	background-size: 118px 118px;
+}
+
+#main-copy-headline {
+	font-size: 32px;
+	padding: 30px 0px 0px 0px;
+}
+
+#main-copy-subhead {
+	font-size: 21px;
+	padding: 10px 0px 0px 0px;
+}
