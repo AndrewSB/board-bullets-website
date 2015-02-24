@@ -108,19 +108,20 @@ body {
 #main-stores {
 	margin: 40px 0px 0px 0px;
 	padding: 0px;
+	text-align: center;
 }
 
-#main-app-store {
+#the-app-store {
 	background-image:url('app_store_icon.png');
 	background-size: 159px 50px;
 	height:50px;
 	width: 159px;
-	margin:0px;
- 	padding: 0px;
- 	float: left;
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#main-play-store {
+/*#main-play-store {
 	background-image:url('play_store_icon.png');
 	background-size: 136px 50px;
 	height:50px;
@@ -128,7 +129,7 @@ body {
 	margin:0px 0px 0px 10px;
  	padding: 0px;
  	float: left;
-}
+}*/
 
 #main-app-holder-m {
 	display: none;
