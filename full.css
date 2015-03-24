@@ -1,3 +1,8 @@
+html {
+	/*background-image: url('./background.jpg');*/
+	background-color: red;
+}
+
 #main-container {
 	position: absolute;
 	width: 935px;
